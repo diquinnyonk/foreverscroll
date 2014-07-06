@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Foreverscroll</title>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<meta name="description" content="">
+
+		<link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+       
+	</head>
+
+<body>    
+<header class="l-header">
+    <nav class="menu-side">
+   
+    </nav>
+</header>
+    <section>
+        <div class="hero forever">
+        <div class="viewport">
+            <div class="overview ul">
+                <article class="item grid item-1" >
+                    <h2>A wonderful collaboration</h2>
+                    <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p><strong>Jane Doe, Company</strong></p>
+                </article>
+                <article class="item grid item-2 ">
+                    <h2>A great site</h2>
+                    <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p><strong>John Doe, Company</strong></p>
+                </article>
+                <article class="item grid item-3">
+                    <h2>A fantastic job</h2>
+                    <p>Congratulations on all the work you have done for us, you’ve really done <strong>a fantastic job</strong> bring the app together in the time scale you had. I know everyone at Microsoft that I’ve shown the app has been really impressed and I’m sure it will go down very well whe we public announce tomorrow</p>
+                    <p><strong>Mike Wilson, Microsoft</strong></p>
+                </article>
+            </div>
+        </div>
+        <a class="buttons prev" href="#">Prev</a>
+        <a class="buttons next" href="#">Next</a>
+    </div>
+        
+    </section>
+
+
+<footer>
+    
+</footer>
+	<script>window.jQuery || document.write('<script src="jquery-1.9.1.min.js"><\/script>')</script>
+        
+	<script type="text/javascript" src="foreverscroll.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                console.log('ready');
+                // forever scroll
+                $('.forever').foreverscroll('cheese',{type : 'article'});
+            });
+            
+        </script>
+
+</body>
+</html>
